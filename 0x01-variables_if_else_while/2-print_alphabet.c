@@ -1,16 +1,17 @@
 #include <stdio.h>
 /**
- * main
+ * main - Entry point
  *
- * Return 0 always (sucess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char letter;
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        putchar(letter);
-    putchar('\n');
-    }
-    return 0;
+	char lowercase_letter;
+	
+	for (lowercase_letter = 'a'; lowercase_letter <= 'z'; lowercase_letter++)
+	{
+		putchar(lowercase_letter);
+	}
+	putchar('\n');
+	return (0);
 }
